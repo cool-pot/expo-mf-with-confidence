@@ -10,7 +10,7 @@ This repository is largely influenced by the paper ["Modeling User Exposure in R
 
 ![performance_steam](https://github.com/cool-pot/expo-mf-with-confidence/blob/master/pics/performance_steam.png)
 
-## Non-binarized Implicit indicating "frequence or intensity"
+## Non-binarized Implicit Feedback indicating "frequence or intensity"
 
 ![performance_tps](https://github.com/cool-pot/expo-mf-with-confidence/blob/master/pics/performance_tps.png)
 
