@@ -16,7 +16,7 @@ This repository is largely influenced by the paper ["Modeling User Exposure in R
 
 ## Datasets
 - [Taste Profile Subset](http://labrosa.ee.columbia.edu/millionsong/tasteprofile)
-- [Movilens](https://grouplens.org/datasets/movielens/)
+- [Movielens](https://grouplens.org/datasets/movielens/)
 - [Steam Vedio Games](https://www.kaggle.com/tamber/steam-video-games)
 
 ## Contrast
