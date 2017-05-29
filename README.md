@@ -1,8 +1,8 @@
 # ExpoMF with confidence
 
-A modified version of expo-mf, which has a better performance than expo-mf when facing implicit data indicating "frequence or intensity".
+A modified version of expo-mf, which has a better performance than expo-mf when facing implicit feedbeck indicating "frequence or intensity".
 
-This repository contains the experienmental study notebooks in my greduate thesis.
+This repository contains the experienmental study notebooks in my greduate thesis. 
 
 This repository is largely influenced by the paper ["Modeling User Exposure in Recommendation"](http://arxiv.org/abs/1510.07025) (WWW'16) and dawenl's repository["expomf"](https://github.com/dawenl/expo-mf).
 
@@ -21,3 +21,4 @@ This repository is largely influenced by the paper ["Modeling User Exposure in R
 
 ## Contrast
 I used the weighted matrix factorization (WMF) implementation in [Implicit](https://github.com/benfred/implicit). 
+
