@@ -1,6 +1,6 @@
 # ExpoMF with confidence
 
-A modified version of expo-mf, which have a better performance when facing implicit data indicating "frequence or intensity".
+A modified version of expo-mf, which has a better performance than expo-mf when facing implicit data indicating "frequence or intensity".
 
 This repository contains the experienmental study notebooks in my greduate thesis.
 
