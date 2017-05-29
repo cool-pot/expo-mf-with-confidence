@@ -6,6 +6,14 @@ This repository contains the experienmental study notebooks in my greduate thesi
 
 This repository is largely influenced by the paper ["Modeling User Exposure in Recommendation"](http://arxiv.org/abs/1510.07025) (WWW'16) and dawenl's repository["expomf"](https://github.com/dawenl/expo-mf).
 
+## Binarized Implicit Feedback
+
+![performance_steam](https://github.com/cool-pot/expo-mf-with-confidence/blob/master/pics/performance_steam.png)
+
+## Non-binarized Implicit indicating "frequence or intensity"
+
+![performance_tps](https://github.com/cool-pot/expo-mf-with-confidence/blob/master/pics/performance_tps.png)
+
 ## Datasets
 - [Taste Profile Subset](http://labrosa.ee.columbia.edu/millionsong/tasteprofile)
 - [Movilens](https://grouplens.org/datasets/movielens/)
