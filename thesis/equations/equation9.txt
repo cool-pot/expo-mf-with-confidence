@@ -1,0 +1,1 @@
+y_{ ui }\quad \sim \quad \Nu (\theta _{ u }^{ T }\beta _{ i },\quad c _{ ui }^{ -1 })

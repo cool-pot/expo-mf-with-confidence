@@ -1,0 +1,1 @@
+{ y }_{ ui }=\left\{  0,  \qquad  if \ (r_{ui}=0) \\1,\qquad if(r_{ui}>0) \right 

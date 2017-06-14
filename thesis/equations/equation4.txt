@@ -1,0 +1,1 @@
+{ c }_{ ui }=1+\alpha { y }_{ ui }\quad \\ { c }_{ ui }=1+\alpha log(1+\cfrac { { y }_{ ui } }{ \E  } )

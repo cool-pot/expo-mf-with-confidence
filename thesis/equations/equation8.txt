@@ -1,0 +1,1 @@
+\max _{ \theta ,\beta  }{ \prod _{ (u,i)\in K } P(r_{ ui }) } =\max _{ \theta ,\beta  }{ \quad log(\prod _{ (u,i)\in K } P(r_{ ui })) } \\ \quad \qquad \qquad \qquad \quad \quad =\min _{ \theta ,\beta  }{ \quad \sum_{(u,i)\in K}\lambda _{ r }(r_{ ui }-\theta _{ u }^{ T }\beta _{ i })^{ 2 }+\lambda _{ \theta  }||\theta _{ u }||^{ 2 }+\lambda _{ \beta  }||\beta _{ i }||^{ 2 } } 

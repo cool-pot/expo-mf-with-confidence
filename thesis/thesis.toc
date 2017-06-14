@@ -1,0 +1,23 @@
+\contentsline {chapter}{\numberline {第一章\hspace {0.3em}}引言}{1}{chapter.1}
+\contentsline {chapter}{\numberline {第二章\hspace {0.3em}}背景知识}{4}{chapter.2}
+\contentsline {section}{\numberline {第\nobreakspace {}1\nobreakspace {}节}协同过滤的隐向量方法}{4}{section.2.1}
+\contentsline {section}{\numberline {第\nobreakspace {}2\nobreakspace {}节}处理隐式反馈数据的隐向量方法}{5}{section.2.2}
+\contentsline {section}{\numberline {第\nobreakspace {}3\nobreakspace {}节}隐向量分解的概率解释}{5}{section.2.3}
+\contentsline {chapter}{\numberline {第三章\hspace {0.3em}}ExpoMF模型}{7}{chapter.3}
+\contentsline {section}{\numberline {第\nobreakspace {}1\nobreakspace {}节}模型描述}{7}{section.3.1}
+\contentsline {section}{\numberline {第\nobreakspace {}2\nobreakspace {}节}为曝光度建模}{9}{section.3.2}
+\contentsline {section}{\numberline {第\nobreakspace {}3\nobreakspace {}节}模型推断}{9}{section.3.3}
+\contentsline {subsection}{\numberline {3.1.}用EM方法推断隐向量$\theta _u,\beta _i$}{10}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.2.}对先验估计$\mu _{ui}$的推断}{11}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.}推断算法的总结}{11}{subsection.3.3.3}
+\contentsline {section}{\numberline {第\nobreakspace {}4\nobreakspace {}节}预测}{12}{section.3.4}
+\contentsline {chapter}{\numberline {第四章\hspace {0.3em}}实验}{13}{chapter.4}
+\contentsline {section}{\numberline {第\nobreakspace {}1\nobreakspace {}节}数据集}{13}{section.4.1}
+\contentsline {section}{\numberline {第\nobreakspace {}2\nobreakspace {}节}初步}{14}{section.4.2}
+\contentsline {subsection}{\numberline {2.1.}实验思路}{14}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {2.2.}参照}{15}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {2.3.}评价标准}{15}{subsection.4.2.3}
+\contentsline {section}{\numberline {第\nobreakspace {}3\nobreakspace {}节}在Steam数据上测试 ExpoMF with Per-Item}{16}{section.4.3}
+\contentsline {section}{\numberline {第\nobreakspace {}4\nobreakspace {}节}在TPS数据上测试ExpoMF with confidence}{17}{section.4.4}
+\contentsline {section}{\numberline {第\nobreakspace {}5\nobreakspace {}节}在Movielens数据上测试ExpoMF with covariates}{18}{section.4.5}
+\contentsline {chapter}{\numberline {第五章\hspace {0.3em}}结论}{21}{chapter.5}

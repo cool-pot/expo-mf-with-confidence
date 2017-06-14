@@ -1,0 +1,1 @@
+{ \theta  }_{ u }\quad \sim \quad \Nu (0,\quad \lambda _{ \theta  }^{ -1 }I_{ K })\\ { \beta  }_{ i }\quad \sim \quad \Nu (0,\quad \lambda _{ \beta  }^{ -1 }I_{ K })\\ r_{ ui }\quad \sim \quad \Nu (\theta_{u}^{T}\beta_{i},\quad \lambda _{ r }^{ -1 })

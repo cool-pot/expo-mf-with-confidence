@@ -1,0 +1,1 @@
+\hat { z_{ ui } } =\left\{ \frac { \mu _{ ui }\Nu (0|\theta _{ u }^{ T }\beta _{ i },\lambda _{ y }^{ -1 }) }{ \mu _{ ui }\Nu (0|\theta _{ u }^{ T }\beta _{ i },\lambda _{ y }^{ -1 })+(1-\mu _{ ui }) } \quad \quad \quad \quad ,if\quad y_{ui}=0\\ \\ \\ \quad \quad \quad \quad \quad \quad \quad \quad 1\qquad \qquad \qquad \qquad \quad \quad ,if\quad y_{ui}=1 \right 

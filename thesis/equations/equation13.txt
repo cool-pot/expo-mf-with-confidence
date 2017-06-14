@@ -1,0 +1,1 @@
+\mu _{ ui }=\sigma (\psi _{ u }^{ T }x_{ i })

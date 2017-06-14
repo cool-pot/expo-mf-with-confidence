@@ -1,0 +1,1 @@
+P(z_{ ui },y_{ ui }|\theta _{ u },\beta _{ i },\mu _{ ui },\lambda _{ y }^{ -1 })=[\mu _{ ui }N(y_{ ui }|\theta _{ u }^{ T }\beta _{ i },\lambda _{ y }^{ -1 })]^{ z_{ ui } }[(1-\mu _{ ui })\delta _{ 0 }(y_{ ui })]^{ (1-z_{ ui }) }

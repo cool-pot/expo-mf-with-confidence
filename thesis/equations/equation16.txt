@@ -1,0 +1,1 @@
+\max _{ \theta ,\beta  }{ \prod _{ (u,i) } P(y_{ ui }|\hat { z_{ ui } } ) } =\max _{ \theta ,\beta  } \prod _{ (u,i) } P(y_{ ui }|\hat { z_{ ui } } ,\theta _{ u },\beta _{ i })P(\theta _{ u })P(\beta _{ i })

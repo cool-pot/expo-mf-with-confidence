@@ -1,0 +1,1 @@
+\min _{ \theta ,\beta  }{ \sum _{ (u,i)\in K }{ { ({ { r }_{ ui } }-\theta  }_{ u } } ^{ T }{ \beta  }_{ i })^{ 2 }+\lambda (\sum_{u}||\theta _{ u }||^{ 2 }+\sum_{i}|||\beta _{ i }||^{ 2 }) } 

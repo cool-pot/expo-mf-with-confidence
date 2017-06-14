@@ -1,0 +1,570 @@
+%2011.10.14 楼红卫
+%
+% C:\CTeX\localtexmf\tex\latex\sty
+%
+%
+%%%% Namelist
+%
+%
+\renewcommand{\baselinestretch}{1.5}
+\newcommand{\namelistlabel}[1]{\mbox{#1}\hfil}
+\newenvironment{namelist}[1]{%
+\begin{list}{}
+     {
+       \let\makelabel\namelistlabel
+       \settowidth{\labelwidth}{#1}
+       \setlength{\leftmargin}{1.1\labelwidth}
+       }
+     }{%
+\end{list}}
+%
+%
+%%%% Abbreviation
+%
+% good version
+\def\mb{\mbox}
+\def\nnb{\nonumber}
+\def\ds{\displaystyle}
+\def\cd{\cdot}
+\def\cds{\cdots}
+\def\all{  \, \forall \, }
+\def\ext{ \, \exists \, }
+% old version
+\def\disp{\displaystyle}
+%
+%
+%%%% Bracket
+%
+%
+\newcommand{\refeq}[1]{~$(\ref{#1})$ }
+\newcommand{\eqref}[1]{~$(\ref{#1})$ }
+\newcommand{\thb}[1]{~{\rm (#1)} }
+\newcommand{\ppmatrix}[1]{\begin{pmatrix}#1\end{pmatrix}}
+\newcommand{\set}[1]{\left\{#1\right\}}
+\newcommand{\ip}[1]{\left\langle #1\right\rangle}
+\newcommand{\ia}[1]{\left| #1\right|}
+%
+%
+%%%% Commonly used words
+%
+%
+\def\Proof{\noindent\hspace{2em}{\bf Proof.\hspace{1em}}}
+\def\proof{\noindent\hspace{2em}{\bf Proof.\hspace{1em}}}
+\def\endpf{\hfill$\Box$\vspace{0.4cm}}
+\def\eqif{\, {\rm if}\, \,}
+\def\eqon{ \, {\rm on } \, \,}
+\def\eqin{ \, {\rm in } \, \,}
+\def\eqae{ \, {\rm a.e. } \,\, }
+\def\bec{$\because$}
+\def\ther{$\therefore$}
+\def\Div{ \, {\rm div } \,\, }
+%\div can not be defined as a user's definition
+%
+%old  version
+\def\bcs{$\because$}
+\def\taf{$\therefore$}
+%
+%
+%%%% convergence
+%
+\newcommand{\si}[1]{\mbox{ strongly in}\, #1}
+\newcommand{\wi}[1]{\mbox{ weakly  in}\, #1}
+\newcommand{\wsi}[1]{\mbox{weakly}^* \mbox{  in}\, #1}
+\newcommand{\ui}[1]{\mbox{uniformly in}\, #1}
+%
+%
+%%%% Lines
+%
+%
+\def\ul{\underline}
+\def\ol{\overline}
+%
+%
+%%%% Lower case Greek letters
+%
+\def\a{\alpha}
+\def\b{\beta}
+\def\c{\chi}
+\def\g{\gamma}
+\def\d{\delta}
+\def\e{\epsilon}
+\def\ve{\varepsilon}
+\def\z{\zeta}
+\def\k{\kappa}
+\def\Gl{\lambda}
+% \l can not be defined as a user's definition
+\def\vth{\vartheta}
+\def\m{\mu}
+\def\n{\nu}
+\def\s{\sigma}
+\def\t{\tau}
+\def\f{\phi}
+\def\vf{\varphi}
+\def\th{\theta}
+\def\Go{\omega}
+% \o can not be defined as a user's definition
+\def\r{\rho}
+%
+% old version*  对于希腊字母的自定义, 或许以下的旧版比上面的版本更好. 单个字母的命令输入时带来方便, 但在替换时造成麻烦. 
+%               比如, 如果我们需要用 "\delta" 替代 "\alpha", 则会发现用"\Gd" 替代 "\Ga" 要比用 "\d" 替代 "\a" 容易很多, 
+%               这主要是因为我们还会有其他一些常用的命令以 a 开头.
+\def\Ga{\alpha}
+\def\Gb{\beta}
+\def\Gg{\gamma}
+\def\Gd{\delta}
+\def\Ge{\epsilon}
+\def\Gve{\varepsilon}
+\def\Gz{\zeta}
+\def\Gs{\sigma}
+\def\Gt{\theta}
+\def\Gvp{\varphi}
+%
+%
+%%%% Upper case Greek letters
+%
+%
+\def\GG{\Gamma}
+\def\D{\Delta}
+\def\Th{\Theta}
+\def\GL{\Lambda}
+% \L can not be defined as a user's definition
+\def\Si{\Sigma}
+\def\F{\Phi}
+\def\GP{\Phi}
+\def\GO{\Omega}
+% \O can not be defined as a user's definition
+%
+%
+%%%% \bar
+\def\bA{\ol{A}}
+\def\bB{\ol{B}}
+\def\bC{\ol{C}}
+\def\bD{\ol{D}}
+\def\bE{\ol{E}}
+\def\bF{\ol{F}}
+\def\bG{\ol{G}}
+\def\bH{\ol{H}}
+\def\bI{\ol{I}}
+\def\bJ{\ol{J}}
+\def\bK{\ol{K}}
+\def\bL{\ol{L}}
+\def\bM{\ol{M}}
+\def\bN{\ol{N}}
+\def\bO{\ol{O}}
+\def\bP{\ol{P}}
+\def\bQ{\ol{Q}}
+\def\bR{\ol{R}}
+\def\bS{\ol{S}}
+\def\bT{\ol{T}}
+\def\bU{\ol{U}}
+\def\bV{\ol{V}}
+\def\bW{\ol{W}}
+\def\bX{\ol{X}}
+\def\bY{\ol{Y}}
+\def\bZ{\ol{Z}}
+%
+\def\ba{\bar a}
+\def\bb{\bar b}
+\def\bc{\bar c}
+\def\bd{\bar d}
+\def\be{\bar e}
+\def\barf{\bar f}
+% \bf can not be defined as a user's definition
+\def\bg{\bar g}
+\def\bh{\bar h}
+\def\bi{\bar i}
+\def\bj{\bar j}
+\def\bk{\bar k}
+\def\bl{\bar l}
+\def\bm{\bar m}
+\def\bn{\bar n}
+\def\bo{\bar o}
+\def\bp{\bar p}
+\def\bq{\bar q}
+\def\br{\bar r}
+\def\bs{\bar s}
+\def\bt{\bar t}
+\def\bu{\bar u}
+\def\bv{\bar v}
+\def\bw{\bar w}
+\def\bx{\bar x}
+\def\by{\bar y}
+\def\bz{\bar z}
+%
+%
+%%%% Calligraphic Capitals
+%
+%
+\def\cA{{\cal A}}
+\def\cB{{\cal B}}
+\def\cC{{\cal C}}
+\def\cD{{\cal D}}
+\def\cE{{\cal E}}
+\def\cF{{\cal F}}
+\def\cG{{\cal G}}
+\def\cH{{\cal H}}
+\def\cI{{\cal I}}
+\def\cJ{{\cal J}}
+\def\cK{{\cal K}}
+\def\cL{{\cal L}}
+\def\cM{{\cal M}}
+\def\cN{{\cal N}}
+\def\cO{{\cal O}}
+\def\cP{{\cal P}}
+\def\cQ{{\cal Q}}
+\def\cR{{\cal R}}
+\def\cS{{\cal S}}
+\def\cT{{\cal T}}
+\def\cU{{\cal U}}
+\def\cV{{\cal V}}
+\def\cW{{\cal W}}
+\def\cX{{\cal X}}
+\def\cY{{\cal Y}}
+\def\cZ{{\cal Z}}
+%
+%
+%%%% \mathscr
+%
+%
+\def\mcA{{\mathscr A}}
+\def\mcB{{\mathscr B}}
+\def\mcC{{\mathscr C}}
+\def\mcD{{\mathscr D}}
+\def\mcE{{\mathscr E}}
+\def\mcF{{\mathscr F}}
+\def\mcG{{\mathscr G}}
+\def\mcH{{\mathscr H}}
+\def\mcI{{\mathscr I}}
+\def\mcJ{{\mathscr J}}
+\def\mcK{{\mathscr K}}
+\def\mcL{{\mathscr L}}
+\def\mcM{{\mathscr M}}
+\def\mcN{{\mathscr N}}
+\def\mcO{{\mathscr O}}
+\def\mcP{{\mathscr P}}
+\def\mcQ{{\mathscr Q}}
+\def\mcR{{\mathscr R}}
+\def\mcS{{\mathscr S}}
+\def\mcT{{\mathscr T}}
+\def\mcU{{\mathscr U}}
+\def\mcV{{\mathscr V}}
+\def\mcW{{\mathscr W}}
+\def\mcX{{\mathscr X}}
+\def\mcY{{\mathscr Y}}
+\def\mcZ{{\mathscr Z}}
+%
+%
+%%%% Upper case bold faced letters
+%
+%
+\def\BA{{\bf A}}
+\def\BB{{\bf B}}
+\def\BC{{\bf C}}
+\def\BD{{\bf D}}
+\def\BE{{\bf E}}
+\def\BF{{\bf F}}
+\def\BG{{\bf G}}
+\def\BH{{\bf H}}
+\def\BI{{\bf I}}
+\def\BJ{{\bf J}}
+\def\BK{{\bf K}}
+\def\BL{{\bf L}}
+\def\BM{{\bf M}}
+\def\BN{{\bf N}}
+\def\BO{{\bf O}}
+\def\BP{{\bf P}}
+\def\BQ{{\bf Q}}
+\def\BR{{\bf R}}
+\def\BS{{\bf S}}
+\def\BT{{\bf T}}
+\def\BU{{\bf U}}
+\def\BV{{\bf V}}
+\def\BW{{\bf W}}
+\def\BX{{\bf X}}
+\def\BY{{\bf Y}}
+\def\BZ{{\bf Z}}
+%
+\def\Ba{{\bf a}}
+\def\Bb{{\bf b}}
+\def\Bc{{\bf c}}
+\def\Bd{{\bf d}}
+\def\Be{{\bf e}}
+\def\Bf{{\bf f}}
+\def\Bg{{\bf g}}
+\def\Bh{{\bf h}}
+\def\Bi{{\bf i}}
+\def\Bj{{\bf j}}
+\def\Bk{{\bf k}}
+\def\Bl{{\bf l}}
+\def\Bm{{\bf m}}
+\def\Bn{{\bf n}}
+\def\Bo{{\bf o}}
+\def\Bp{{\bf p}}
+\def\Bq{{\bf q}}
+\def\Br{{\bf r}}
+\def\Bs{{\bf s}}
+\def\Bt{{\bf t}}
+\def\Bu{{\bf u}}
+\def\Bv{{\bf v}}
+\def\Bw{{\bf w}}
+\def\Bx{{\bf x}}
+\def\By{{\bf y}}
+\def\Bz{{\bf z}}
+%
+%
+\def\bGa{{\bar \a}}
+\def\bGb{{\bar \b}}
+\def\bGd{{\bar \d}}
+\def\bGve{{\bar \ve}}
+\def\bGg{{\bar \g}}
+\def\bGz{{\bar \z}}
+\def\bGs{{\bar \s}}
+\def\bpsi{{\bar \psi}}
+\def\bGvp{{\bar \varphi}}
+%
+\def\bPsi{{\ol{\Psi}}}
+\def\bGO{{\ol{\Omega}}}
+%
+%
+%%%% \hat
+%
+% \hat h: \hah ; \hat t: \hatt; \hh is used to replace \hspace in this sty.
+\def\hA{{\widehat A}}
+\def\bB{{\widehat B}}
+\def\hC{{\widehat C}}
+\def\hD{{\widehat D}}
+\def\hE{{\widehat E}}
+\def\hF{{\widehat F}}
+\def\hG{{\widehat G}}
+\def\hH{{\widehat H}}
+\def\hI{{\widehat I}}
+\def\hJ{{\widehat J}}
+\def\hK{{\widehat K}}
+\def\hL{{\widehat L}}
+\def\hM{{\widehat M}}
+\def\hN{{\widehat N}}
+\def\hO{{\widehat O}}
+\def\hP{{\widehat P}}
+\def\hQ{{\widehat Q}}
+\def\hR{{\widehat R}}
+\def\hS{{\widehat S}}
+\def\hT{{\widehat T}}
+\def\hU{{\widehat U}}
+\def\hV{{\widehat V}}
+\def\hW{{\widehat W}}
+\def\hX{{\widehat X}}
+\def\hY{{\widehat Y}}
+\def\hZ{{\widehat Z}}
+%
+\def\ha{\hat a}
+\def\hb{\hat b}
+\def\hc{\hat c}
+\def\hd{\hat d}
+\def\he{\hat e}
+\def\hf{\hat f}
+\def\hg{\hat g}
+\def\hah{\hat h}
+\def\hi{\hat i}
+\def\hj{\hat j}
+\def\hk{\hat k}
+\def\hl{\hat l}
+\def\hm{\hat m}
+\def\hn{\hat n}
+\def\ho{\hat o}
+\def\hp{\hat p}
+\def\hq{\hat q}
+\def\hr{\hat r}
+\def\hs{\hat s}
+\def\mt{\hat t}
+\def\hu{\hat u}
+\def\hv{\hat v}
+\def\hw{\hat w}
+\def\hx{\hat x}
+\def\hy{\hat y}
+\def\hz{\hat z}
+%
+\def\hGa{\hat \a}
+\def\hGb{\hat \b}
+\def\hGd{\hat \d}
+\def\hGve{\hat \ve}
+\def\hGg{\hat \g}
+\def\hGz{\hat \z}
+\def\hGo{\hat \o}
+\def\hpsi{\hat \psi}
+%
+\def\hGG{\widehat \G}
+\def\hGO{\widehat \O}
+\def\hPsi{\widehat \Psi}
+%
+%%%% \tilde
+%
+\def\tiA{\widetilde A}
+\def\tiB{\widetilde  B}
+\def\tiC{\widetilde C}
+\def\tiD{\widetilde  D}
+\def\tiE{\widetilde E}
+\def\tiF{\widetilde  F}
+\def\tiG{\widetilde  G}
+\def\tiH{\widetilde  H}
+\def\tiI{\widetilde  I}
+\def\tiJ{\widetilde  J}
+\def\tiK{\widetilde  K}
+\def\tiL{\widetilde  L}
+\def\tiM{\widetilde  M}
+\def\tiN{\widetilde  N}
+\def\tiO{\widetilde  O}
+\def\tiP{\widetilde  P}
+\def\tiQ{\widetilde  Q}
+\def\tiR{\widetilde  R}
+\def\tiS{\widetilde  S}
+\def\tiT{\widetilde  T}
+\def\tiU{\widetilde  U}
+\def\tiV{\widetilde  V}
+\def\tiW{\widetilde  W}
+\def\tiX{\widetilde  X}
+\def\tiY{\widetilde  Y}
+\def\tiZ{\widetilde  Z}
+%
+\def\tia{\tilde a}
+\def\tib{\tilde b}
+\def\tic{\tilde c}
+\def\tid{\tilde d}
+\def\tie{\tilde e}
+\def\tif{\tilde f}
+\def\tig{\tilde g}
+\def\tih{\tilde h}
+\def\tii{\tilde i}
+\def\tij{\tilde j}
+\def\tik{\tilde k}
+\def\til{\tilde l}
+\def\tim{\tilde m}
+\def\tin{\tilde n}
+\def\tio{\tilde o}
+\def\tip{\tilde p}
+\def\tiq{\tilde q}
+\def\tir{\tilde r}
+\def\tis{\tilde s}
+\def\tit{\tilde t}
+\def\tiu{\tilde u}
+\def\tiv{\tilde v}
+\def\tiw{\tilde w}
+\def\tix{\tilde x}
+\def\tiy{\tilde y}
+\def\tiz{\tilde z}
+%
+\def\tiGP{\widetilde \Phi}
+\def\tiPsi{\widetilde \Psi}
+\def\tiGa{\tilde \a}
+\def\tiGb{\tilde \b}
+\def\tiGd{\tilde \d}
+\def\tiGve{\tilde \ve}
+\def\tiGg{\tilde \g}
+\def\tiGo{\tilde \o}
+%
+%
+%%%% spaces
+%
+%
+\newcommand{\hh}[1]{\hspace{#1 cm}}
+\newcommand{\vv}[1]{\vspace{#1 cm}}
+\def\qq{\qquad}
+\def\q{\quad}
+%
+%
+%%%%% Mathoperators
+%
+\newcommand{\Lap}[1]{\triangle_{#1}\,}
+\newcommand{\dpp}[2]{{\partial {#1} \over \partial {#2}}}
+\newcommand{\doo}[2]{{d {#1} \over d {#2}}}
+\newcommand{\ddp}[3]{{\partial {^{#1}#2} \over \partial {#3^{#1}}}}
+\newcommand{\ddo}[3]{{d {^{#1}#2} \over d {#3^{#1}}}}
+\newcommand{\pr}[1]{\langle #1 \rangle}
+\newcommand{\pri}{{\prime}}
+\newcommand{\prii}{{\prime\prime}}
+\newcommand{\priii}{{\prime\prime\prime}}
+\def\supp{\,{\rm supp}\,}
+\def\tr{\,{\rm tr}\,}
+\def\pa{\partial}
+\def\na{\nabla}
+\def\co{\,{\rm co}\,}
+\def\coh{\,{\rm \overline{\, co}}\,}
+\def\para{\, /\hh {-0.1} /\,}
+\def\sgn{\,{\rm sgn}\,}
+\def\det{\,{\rm det}\,}
+\def\rank{\,{\rm rank}\,}
+\def\dim{\,{\rm dim}\,}
+\def\sh{\,{\rm sh}\,}
+\def\ch{\,{\rm ch}\,}
+\def\Re{\,{\rm Re}\,}
+\def\Im{\,{\rm Im}\,}
+\def\mod{\,{\rm mod}\,}
+
+\def\Ker{\,{\rm Ker}\,}
+\def\codim{\,{\rm codim}\,}
+\def\diam{\,{\rm diam}\,}
+\def\diag{\,{\rm  diag}\,}
+\def\meas{\,{\rm meas}\,}
+%\def\span{{\rm span}\,}
+%
+%
+%%%% Arrow
+%
+%
+\def\Llra{\Longleftrightarrow}
+\def\Lrla{\Longleftrightarrow}
+\def\llra{\longleftrightarrow}
+\def\lrla{\longleftrightarrow}
+\def\Lla{\Longleftarrow}
+\def\Lra{\Longrightarrow}
+\def\lra{\longrightarrow}
+\def\lla{\longleftarrow}
+\def\ra{\rightarrow}
+\def\la{\leftarrow}
+%
+%
+%%%% Limit, integral
+%
+%
+\def\limsup{\mathop{\overline{\rm lim}}}
+\def\liminf{\mathop{\underline{\rm lim}}}
+\def\essinf{\mathop{{\rm essinf}}}
+\def\esssup{\mathop{{\rm esssup}}}
+\def\Hto{\xrightarrow{H}}
+\def\wto{\rightharpoonup}
+\def\Rto{\xrightarrow{\cR}}
+\newcommand{\iint}[2]{ \int\limits_{#1}\hh{-#2}\int }
+\newcommand{\iiint}[2]{ \int\limits_{#1}\hh{-#2}\int\hh{-0.2}\int }
+\newcommand{\intsup}{\int\limits^{-}\hspace{-4.1mm}\int}
+\newcommand{\intinf}{\int\limits_{-}\hspace{-4.1mm}\int}
+\newcommand{\supint}[2]{\int^{\!\!\!\!\,^- #1}_{#2}}
+\newcommand{\infint}[2]{\int^{#1}_{\!\!\!\!\!\!\,_\_ \, \, #2}}
+% it seems that the above \supint and \infint are very good
+%
+%
+%%%% Spacial notation
+%
+%
+\def\IC{\mathds{C}}
+\def\IN{\mathds{N}}
+\def\IZ{\mathds{Z}}
+\def\IQ{\mathds{Q}}
+\def\IR{\mathds{R}}
+%\def\defeq{\stackrel{\triangle}{=}}
+\def\defeq{\buildrel \triangle \over =}
+\def\dbR{{\mathop{\rm l\negthinspace R}}}
+\def\dbC{{\mathop{\rm l\negthinspace\negthinspace\negthinspace C}}}
+\def\dbB{{\mathop{\rm l\negthinspace B}}}
+\def\dbC{{\mathop{\rm l\negthinspace\negthinspace\negthinspace C}}}
+\def\dbD{{\mathop{\rm l\negthinspace D}}}
+\def\dbE{{\mathop{\rm l\negthinspace E}}}
+\def\dbF{{\mathop{\rm l\negthinspace F}}}
+\def\dbH{{\mathop{\rm l\negthinspace H}}}
+\def\dbI{{\mathop{\rm l\negthinspace I}}}
+\def\dbJ{{\mathop{\rm l\negthinspace\negthinspace J}}}
+\def\dbK{{\mathop{\rm l\negthinspace K}}}
+\def\dbL{{\mathop{\rm l\negthinspace L}}}
+\def\dbM{{\mathop{\rm l\negthinspace M}}}
+\def\dbN{{\mathop{\rm l\negthinspace N}}}
+\def\dbP{{\mathop{\rm l\negthinspace P}}}
+%
+%
