@@ -2,7 +2,7 @@
 
 A modified version of expo-mf, which has a better performance than expo-mf when facing implicit feedbeck indicating "frequence or intensity".
 
-This repository contains the experienmental study notebooks in my greduate thesis. 
+This repository contains the experienmental study notebooks in my [greduate thesis](https://github.com/cool-pot/expo-mf-with-confidence/blob/master/thesis/thesis.pdf). 
 
 This repository is largely influenced by the paper ["Modeling User Exposure in Recommendation"](http://arxiv.org/abs/1510.07025) (WWW'16) and dawenl's repository["expomf"](https://github.com/dawenl/expo-mf).
 
